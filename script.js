@@ -6,7 +6,7 @@ for(let m = 0; m < scores.length; m++){
     let manipulated = (punishment + scores[m]) / 2
 
 
-    console.log(punishment)
+    console.log(scores)
 
 if (punishment > 50){
     output.innerHTML += punishment + "- you passed wonderfully, your previous score is " + scores[m] +" after manipulation <br>"
@@ -17,7 +17,7 @@ output.innerHTML += manipulated + "- you escaped my punishment because of my man
 }
 
  else {
-    output.innerHTML += manipulated + - "you failed badly,your previous score " + scores[m] +" after manipulation <br>"
+    output.innerHTML += punishment + "- you failed badly,your previous score " + scores[m] +" after manipulation <br>"
 }
 
 }
