@@ -11,17 +11,17 @@ for (let m = 0; m < scores.length; m++){
     console.log(punishment);
 
  if (punishment > 50){
-  text += punishment + "- you passed wonderfully, your previous score is " + scores[m] + " after manipulation" + "<br>";
+  text += punishment + "- you passed wonderfully, your previous score is " + scores[m] + " after manipulation" + "<br><br>";
      output.innerHTML = text;
 }
 
  else if (manipulated > 50){
-text += manipulated + "- you escaped my punishment because of my manipulated score, your previous score is " + scores[m] + " after manipulation <br>";
+text += manipulated + "- you escaped my punishment because of my manipulated score, your previous score is " + scores[m] + " after manipulation <br><br>";
 output.innerHTML = text;
 }
 
  else {
-    text += punishment + "- you failed badly,your previous score " + scores[m] + " after manipulation <br> ";
+    text += punishment + "- you failed badly,your previous score " + scores[m] + " after manipulation <br><br> ";
     output.innerHTML =  text;
 }
 
